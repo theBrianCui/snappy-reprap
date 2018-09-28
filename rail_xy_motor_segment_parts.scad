@@ -56,7 +56,7 @@ module rail_xy_motor_segment(explode=0, connectby="")
 								}
 								down(5/2) cube(size=[motor_width/2, motor_width+20, motor_length-5], center=true);
 								down(motor_length/2/2) cube(size=[motor_width+20, motor_width/2, motor_length/2], center=true);
-								up(5/2) cube(size=[motor_width+2*4, motor_width/2, motor_length+5], center=true);
+								up(5/2) cube(size=[motor_width+2*4+3, motor_width/2, motor_length+5], center=true);
 								cylinder(d=motor_width*3/4, h=motor_length*2, center=true);
 							}
 						}
