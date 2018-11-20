@@ -39,10 +39,10 @@ module glass_bed_support1()
 								}
 
 								// glass mount slot
-								left(50/2+glass_xoff-printer_slop) {
-									back(2-printer_slop) {
-										cube(size=[50, backing_diam, glass_thick], center=true);
-										up(glass_thick-0.05) back(1) left(1) cube(size=[50, backing_diam, glass_thick], center=true);
+								left(50/2+glass_xoff-printer_slop + 1.75) { // CHANGE LENGTH
+									back(2-printer_slop + 1.75 + .5) { // CHANGE WIDTH
+										cube(size=[50, backing_diam + .5, glass_thick], center=true); // CHANGE WIDTH COVER
+										up(glass_thick-0.05) back(1) left(1) cube(size=[50 - .5, backing_diam, glass_thick], center=true); // CHANGE LENGTH COVER COVER
 									}
 								}
 
@@ -135,10 +135,10 @@ module glass_bed_support2()
 								}
 
 								// glass mount slot
-								right(50/2+glass_xoff-printer_slop) {
-									back(2-printer_slop) {
-										cube(size=[50, backing_diam, glass_thick], center=true);
-										up(glass_thick-0.05) back(1) right(1) cube(size=[50, backing_diam, glass_thick], center=true);
+								right(50/2+glass_xoff-printer_slop + 1.75) {
+									back(2-printer_slop + 1.75 + .5) {
+										cube(size=[50, backing_diam + .5, glass_thick], center=true);
+										up(glass_thick-0.05) back(1) right(1) cube(size=[50 - .5, backing_diam, glass_thick], center=true);
 									}
 								}
 
