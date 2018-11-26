@@ -7,7 +7,11 @@ Snappy3 Prime is a variant of Snappy 3 with some model tweaks and firmware chang
 
 ## Firmware Changes
 
+ - All endstops have been inverted, so the endstops correctly report "unpressed" when they are not pressed. Before inversion, the endstops appeared to report "pressed" when they were unpressed, and the motors would refuse to turn backwards (believing the axis was at-home).
 
+## Hardware Changes
+
+ - Endstops: [Gowoops 5 PCS Mechanical Endstop Switch with Cable](https://amzn.to/2ScCRdb)
 
 ## Original README
 
