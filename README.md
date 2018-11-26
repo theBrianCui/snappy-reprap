@@ -5,6 +5,12 @@ Snappy-Reprap 3 Prime
 
 Snappy3 Prime is a variant of Snappy 3 with some model tweaks and firmware changes.
 
+## Firmware Changes
+
+
+
+## Original README
+
 A parametric design for a cheap self-replicating 3D printer (reprap) that snaps together to minimize screws and non-printed parts.
 
 Important Links:
