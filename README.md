@@ -13,6 +13,10 @@ Snappy3 Prime is a variant of Snappy 3 with some model tweaks and firmware chang
 
  - Endstops: [Gowoops 5 PCS Mechanical Endstop Switch with Cable](https://amzn.to/2ScCRdb)
 
+## Compiling Firmware
+
+The firmware source code is in the `firmware/marlin` directory. To compile and upload the firmware to the Arduino Mega 2560 board, you will need the Arduino IDE with the U8glib library plugin installed. Check out the [RepRap Wiki](https://reprap.org/wiki/Marlin#Configuring_and_compilation) for more details.
+
 ## Original README
 
 A parametric design for a cheap self-replicating 3D printer (reprap) that snaps together to minimize screws and non-printed parts.
