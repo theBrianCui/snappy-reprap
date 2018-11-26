@@ -1,7 +1,9 @@
 ![Snappy Full Rendering](https://github.com/revarbat/snappy-reprap/wiki/v3.0-snappy_small.png)
 
-Snappy-Reprap 3
+Snappy-Reprap 3 Prime
 ===============
+
+Snappy3 Prime is a variant of Snappy 3 with some model tweaks and firmware changes.
 
 A parametric design for a cheap self-replicating 3D printer (reprap) that snaps together to minimize screws and non-printed parts.
 
