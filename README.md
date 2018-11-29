@@ -8,14 +8,22 @@ Snappy3 Prime is a variant of Snappy 3 with some model tweaks and firmware chang
 ## Firmware Changes
 
  - All endstops have been inverted, so the endstops correctly report "unpressed" when they are not pressed. Before inversion, the endstops appeared to report "pressed" when they were unpressed, and the motors would refuse to turn backwards (believing the axis was at-home).
+ - Heated bed support is disabled. The heated bed thermistor is inactive and overheating protections for the heated bed are off.
 
-## Hardware Changes
+## Hardware Choices
 
  - Endstops: [Gowoops 5 PCS Mechanical Endstop Switch with Cable](https://amzn.to/2ScCRdb)
+ - Glass Bed: [Signstek 3D Printer MK2 MK3 Heated Bed Tempered Borosilicate Glass Plate 213x200x3mm](https://www.amazon.com/gp/product/B00QQ5Q3BI/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1)
 
 ## Compiling Firmware
 
 The firmware source code is in the `firmware/marlin` directory. To compile and upload the firmware to the Arduino Mega 2560 board, you will need the Arduino IDE with the U8glib library plugin installed. Check out the [RepRap Wiki](https://reprap.org/wiki/Marlin#Configuring_and_compilation) for more details.
+
+## Model Changes
+
+ - X and Y axis motor cages have thinner walls to allow stepper motors with extended cable ports to fit through.
+ - Glass bed supports have been slightly extended for a tight fit on the glass bed.
+ - Two endstops are required for each rail of the Z axis (not specified in the assembly instructions). These allow the two motors/rail segments to normalize independently.
 
 ## Original README
 
