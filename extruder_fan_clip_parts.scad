@@ -30,12 +30,12 @@ module extruder_fan_clip()
 							cube([extruder_fan_size+2*printer_slop, extruder_fan_size+2*printer_slop, inset*2], center=true);
 						}
 					}
-					up((inset+1)/2) {
-						cylinder(d=extruder_fan_size/2, h=thick-inset-1, center=true);
-						zring(n=8, r=extruder_fan_size/4) {
+					/*up((inset+1)/2) {
+						cylinder(d=extruder_fan_size/2-4, h=thick-inset-1, center=true);
+						zring(n=4, r=extruder_fan_size/4) {
 							cube([extruder_fan_size/2+1, 3, thick-inset-1], center=true);
 						}
-					}
+					}*/
 				}
 			}
 
