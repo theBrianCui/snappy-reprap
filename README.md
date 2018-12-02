@@ -23,6 +23,7 @@ The firmware source code is in the `firmware/marlin` directory. To compile and u
 
  - X and Y axis motor cages have thinner walls to allow stepper motors with extended cable ports to fit through.
  - Glass bed supports have been slightly extended for a tight fit on the glass bed.
+ - The extruder fan clip cover has been removed for less restricted airflow. The updated STL is saved in `STLs/extruder_fan_clip_no_cover_parts.stl`.
  - Two endstops are required for each rail of the Z axis (not specified in the assembly instructions). These allow the two motors/rail segments to normalize independently.
 
 ## Original README
